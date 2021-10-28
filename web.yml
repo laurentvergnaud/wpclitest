@@ -1,0 +1,8 @@
+- name: List homepage URLs
+  hosts: tests
+  remote_user: www-data
+
+  tasks:
+- name: List hompeage URLs
+  shell: 
+      wp --path=/app/www option get home
