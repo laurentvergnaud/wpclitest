@@ -1,0 +1,1 @@
+wp --path=/app/www option get home
