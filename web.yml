@@ -2,6 +2,5 @@
   hosts: tests
 
   tasks:
-- name: List hompeage URLs
-  shell: 
-      wp --path=/app/www option get home
+  - name: List hompeage URLs
+    shell: wp --path=/app/www option get home
