@@ -5,5 +5,5 @@
   - name: List hompeage URLs
     shell: wp --path=/app/www plugin install jetpack
     register: shell_result
-    
-  - debug: var: shell_result.stdout_lines
+  - debug: 
+      var: shell_result.stdout_lines
