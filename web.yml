@@ -3,4 +3,4 @@
 
   tasks:
   - name: List hompeage URLs
-    shell: wp --path=/app/www option get home
+    shell: wp --path=/app/www plugin install jetpack
